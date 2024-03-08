@@ -1,0 +1,3 @@
+FitFlow is a personal fitness tracking app. After logging in with your physical and biological information in this application, you can track your training status and add the workout lists that are specially prepared for you and available in the application to your own lists. However, to create a personalized workout list, you can choose from the exercises available in the application and create your own list. There are customized pop-up information screens for each exercise and workout, so you can gain the training habit that best suits you.
+
+In this application, Java and Spring were used for Backend, Android Studio was used for Frontend, and MongoDB, Docker and Postman tools were used for database applications.
