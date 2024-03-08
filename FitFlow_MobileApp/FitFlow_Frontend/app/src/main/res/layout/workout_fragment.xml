@@ -1,0 +1,56 @@
+<!-- res/layout/fragment_workouts.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="@drawable/user_info_box"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title for the Workouts Section -->
+        <TextView
+            android:id="@+id/tvWorkoutsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center_horizontal"
+            android:text="Workouts"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Centered small text under the title -->
+        <TextView
+            android:id="@+id/tvWorkoutsSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/user_attributes_box"
+            android:gravity="center_horizontal"
+            android:text="@string/workouts_for_you_to_try_out"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginBottom="16dp"
+/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/user_info_box"/>
+    </LinearLayout>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/enterInfoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Please Enter Your Information"
+        android:textAlignment="center"
+        android:textColor="#113A3A"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@id/enterInfoText"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/height_e_g_1_75"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/ageInput"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/weight_kg"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/heightInput"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="match_parent"
+        android:hint="@string/gender"
+        android:layout_height="50dp"
+        android:background="@drawable/userinfo_spinner_background"
+        android:layout_below="@id/weightInput"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <Spinner
+        android:id="@+id/fitnessLevelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/fitness_level"
+        android:background="@drawable/userinfo_spinner_background"
+        android:layout_below="@id/genderSpinner"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <Spinner
+        android:id="@+id/goalsSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/goals"
+        android:background="@drawable/userinfo_spinner_background"
+        android:layout_below="@id/fitnessLevelSpinner"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/submitInfoButton"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goalsSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#113A3A"
+        android:text="@string/submit_info"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

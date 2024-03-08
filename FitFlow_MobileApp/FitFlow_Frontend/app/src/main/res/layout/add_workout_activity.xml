@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/workoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Please Enter Workout Information"
+        android:textAlignment="center"
+        android:textColor="#113A3A"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/workoutInfo"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Workout Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/levelText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/nameText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Level"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/calsBurnedText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/levelText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Calories Burned"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/calsBurnedText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#113A3A"
+        android:text="Submit Workout"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

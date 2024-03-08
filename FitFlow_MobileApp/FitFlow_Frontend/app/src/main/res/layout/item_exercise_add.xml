@@ -1,0 +1,47 @@
+<!-- File: res/layout/item_exercise.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_edittext"
+    android:clickable="false"
+    android:focusable="false">
+
+    <CheckBox
+        android:id="@+id/exerciseCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="false"
+        android:focusable="false">
+        <TextView
+            android:id="@+id/exerciseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#034444"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="false"
+        android:focusable="false">
+        <TextView
+            android:id="@+id/exerciseBodyPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#034444"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

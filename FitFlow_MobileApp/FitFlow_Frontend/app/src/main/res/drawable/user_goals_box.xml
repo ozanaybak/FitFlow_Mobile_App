@@ -1,0 +1,9 @@
+<!-- res/drawable/rounded_corner_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#849D9D"/> <!-- Background color -->
+
+    <!-- Define the corner radius -->
+    <corners android:radius="10dp"/> <!-- Adjust the radius as needed -->
+
+    <!-- Optional: Add a border -->
+</shape>

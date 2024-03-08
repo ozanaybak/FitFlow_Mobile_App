@@ -1,0 +1,26 @@
+<!-- res/layout/workout_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/workouts_scrollable_item"> <!-- Optional: Background for the item -->
+
+    <TextView
+        android:id="@+id/workoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout Title"
+        android:textColor="#034444"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/workoutCreator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creator"
+        android:textColor="#034444"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>

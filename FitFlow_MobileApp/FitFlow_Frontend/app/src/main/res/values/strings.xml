@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CS310Frontend</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="height_e_g_1_75">Height (e.g., 1.75)</string>
+    <string name="age">Age</string>
+    <string name="submit_info">Submit Info</string>
+    <string name="gender">Gender</string>
+    <string name="fitness_level">Fitness Level</string>
+    <string name="goals">Goals</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_workouts">My Workouts</string>
+    <string name="workouts">Workouts</string>
+    <string name="exercises">Exercises</string>
+    <string name="exercise_title">Exercise Title</string>
+    <string name="body_part">Body Part</string>
+    <string name="creator">Creator</string>
+    <string name="workouts_for_you_to_try_out">Workouts for you to try out!</string>
+    <string name="exercises_for_you_to_try_out">Exercises for you to try out</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="goals_array">
+        <item>Select Goals</item>
+        <item>Lose Weight</item>
+        <item>Gain Weight</item>
+        <item>Preserve Weight</item>
+    </string-array>
+
+    <string-array name="fitness_level_array">
+        <item>Select Fitness Level</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>
